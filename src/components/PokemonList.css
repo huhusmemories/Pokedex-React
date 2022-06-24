@@ -1,0 +1,35 @@
+.container {
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  background-image: url(./../assets/chevron.jpg);
+  background-repeat: repeat ;
+
+  /* background-position: center; */
+}
+
+.pkm-grid {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  border-radius: 5px;
+  background-color: #fff
+}
+
+
+.each-pkm-div {
+  background-color: #F2F2F2;
+  border-radius: 2px;
+  margin: 5px;
+
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.margin-bottom {
+  margin-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
