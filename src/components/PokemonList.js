@@ -8,6 +8,7 @@ export default function PokemonList({pokemon}) {
       <div className="pkm-grid">
         {pokemon.map((pkm) =>
           <SinglePoke singlePoke={pkm} key={pkm.id}/>
+          // {console.log(pkm.name)}
         )}
       </div>
     </div>

@@ -1,0 +1,74 @@
+.max-width-flavor-text {
+  max-width: 300px;
+}
+
+.fonts {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.sprite-width {
+  width: 250px;
+}
+
+.pokemon-card {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: flex-start;
+  padding: 20px
+}
+
+.poke-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: start;
+  justify-content: center;
+  padding: 15px;
+}
+
+.background-subtle {
+  display: flex;
+  justify-content: center;
+  background-image: url(./../assets/chevron.jpg);
+  background-repeat: repeat ;
+}
+
+.test2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.marg-bott {
+  margin-bottom: 12px;
+}
+
+.poke-container {
+  height: 90vh;
+  border: solid;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.details-box {
+  border: solid;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.no-marg-bott {
+  margin-bottom: 0px;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 5px 30px;
+  background-color: #E3340D;
+  margin: 5px;
+  color: #fff;
+  border: 1px solid black;
+  box-shadow: 1px 1px black;
+  margin-bottom: 20px;
+}

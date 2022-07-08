@@ -21,15 +21,16 @@
   background-color: #F2F2F2;
   border-radius: 2px;
   margin: 5px;
-
+  text-align: center;
 }
 
 .no-margin {
   margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
 }
 
 .margin-bottom {
   margin-bottom: 15px;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Roboto', sans-serif;
 }
