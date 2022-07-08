@@ -16,3 +16,14 @@
   width: 200px;
   padding: 5px;
 }
+
+.search-button {
+  border-radius: 5px;
+    padding: 5px 30px;
+    background-color: #E3340D;
+    margin: 5px;
+    color: #fff;
+    border: 1px solid black;
+    box-shadow: 1px 1px black;
+    height: 32px;
+}
